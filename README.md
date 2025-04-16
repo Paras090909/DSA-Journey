@@ -7,3 +7,12 @@ This repository contains all the DSA (Data Structures and Algorithms) questions 
 Everything is organized topic-wise for easy navigation and consistency. I’ll keep updating it regularly as I progress.
 
 You can also use this repo as a DSA roadmap — follow the sequence of topics and problems to build a strong foundation and improve your problem-solving skills step-by-step.
+
+## 📂 DSA Topics Covered
+
+- [Arrays](./ARRAYS/README.md)
+- [Linked Lists](./LINKED_LISTS/README.md)
+- [Trees](./TREES/README.md)
+- [Stacks](./STACKS/README.md)
+- [Queues](./QUEUES/README.md)
+
