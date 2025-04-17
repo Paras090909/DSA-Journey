@@ -10,7 +10,7 @@ Here, I’ve been consistently solving and uploading questions from platforms li
 - ✅ LeetCode Problems  
 - 📘 Class Lectures' DSA Questions  
 - 🧩 Topic-wise Folder Structure  
-- 💡 Clear explanations with code (C++/Java/Python – depending on the problem)  
+- 💡 Clear explanations with code in c++ 
 - 📈 Continuous updates as I learn and grow
 
 ---
