@@ -1,37 +1,30 @@
-#include<iostream>
-#include<vector>
-
+#include <iostream>
 using namespace std;
 
-int main(){
-    int size;
-    cout<<"enter size"<<endl;
-    cin>>size;
-    vector <int> arr(size);
-    vector <int> arr2(size);
-    int k = 0;
-    int m = 0;
+int main() {
+    int n;
 
-    for(int i = 0; i< size; i++){
-        cin>>arr[i];
-    }
-    
+    // Taking array size input
+    cout << "Enter the size of the array: ";
+    cin >> n;
 
-    cout<<"array"<<endl;
-    for(int i = 0; i< size; i++){
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
+    int originalArray[n];
+    int copiedArray[n];
 
-    for(int i = 0; i< size; i++){
-       arr2[m] = arr[k];
-       m++;
-       k++; 
+    // Taking array elements input
+    cout << "Enter " << n << " elements:" << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> originalArray[i];
     }
 
-    cout<<" copy array"<<endl;
-    for(int i = 0; i< size; i++){
-        cout<<arr2[i]<<" ";
+    // Copying elements
+    for (int i = 0; i < n; i++) {
+        copiedArray[i] = originalArray[i];
     }
 
+    // Display copied array
+    cout << "Copied Array: ";
+    for (int i = 0; i < n; i++) {
+        cout << copiedArray[i] << " ";
+    }
 }
