@@ -35,4 +35,4 @@ The output will be:
 
 If the target is `4`, then:
 
-- **Element not found, return:** -1
+- **Element not found, then we print that "the element is not in the array"
